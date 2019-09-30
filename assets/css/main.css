@@ -1554,19 +1554,19 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 !important;
+		color: rgb(185, 185, 185) !important;
 	}
 
 	form :-moz-placeholder {
-		color: #555 !important;
+		color: rgb(185, 185, 185) !important;
 	}
 
 	form ::-moz-placeholder {
-		color: #555 !important;
+		color: rgb(185, 185, 185) !important;
 	}
 
 	form :-ms-input-placeholder {
-		color: #555 !important;
+		color: rgb(185, 185, 185) !important;
 	}
 
 	form ::-moz-focus-inner {
@@ -1951,8 +1951,8 @@ input, select, textarea {
 
 /* Embed */
 .embed {
-	margin-top:15vh;
-	height:45vh;
+	margin-top:20vh;
+	height:50vh;
 
 }
 
