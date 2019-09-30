@@ -9,11 +9,8 @@
 	<head>
 		<title>Xiang Zhang's Portfolio</title>
 		<meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="form.css" >
-        <script src="form.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -197,19 +194,19 @@
 					</header>
 					<div class="row">
 						<div class="col-12">
-							<form method="post" action="" name="myemailform">
+							<form method="post" action="send_mail.php" name="myemailform">
 								<div class="row">
 									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
+										<input type="text" name="first_name" id="name" placeholder="Name" />
 									</div>
 									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
+										<input type="email" name="email_address" id="email" placeholder="Email" />
 									</div>
 									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Subject" />
+										<input type="text" name="email_subject" id="subject" placeholder="Subject" />
 									</div>
 									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
+										<textarea name="comments" id="message" placeholder="Message"></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="actions">
@@ -249,90 +246,6 @@
 					</footer>
 				</div>
 			</article>
-
-
-
-
-			<!-- Contact -->
-			<article id="contact2" class="wrapper style3">
-			<div class="container">
-				<!-- Form Started -->
-				<div class="container form-top">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-							<div class="panel panel-danger">
-								<div class="panel-body">
-									<form id="reused_form">
-										<div class="form-group">
-											<label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
-											<input type="text" name="name" class="form-control" placeholder="Enter Name">
-										</div>
-										<div class="form-group">
-											<label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
-											<input type="email" name="email" class="form-control" placeholder="Enter Email">
-										</div>
-										<div class="form-group">
-											<label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
-											<textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
-										</div>
-										<div class="form-group">
-											<button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
-										</div>
-									</form>
-									<div id="error_message" style="width:100%; height:100%; display:none; ">
-										<h4>
-											Error
-										</h4>
-										Sorry there was an error sending your form. 
-									</div>
-									<div id="success_message" style="width:100%; height:100%; display:none; ">
-	<h2>Success! Your Message was Sent Successfully.</h2>
-	</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Form Ended -->
-			</div>
-		</article>
-
-
-						<!-- Contact -->
-						<article id="contact3" class="wrapper style4">
-							<div class="container medium">
-
-								<div class="row">
-
-									<div class="col-12">
-										<hr />
-										<h3>Find me on ...</h3>
-										<ul class="social">
-			
-											<li><a href="https://www.linkedin.com/in/xiang-zhang-1b950a135/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											<li><a href="https://github.com/XiangZhang0216" class="icon brands fa-github"><span class="label">Github</span></a></li>
-											<!--
-											<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-											<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-											<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-											<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-											<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-											<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
-											<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-											<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-											<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-											-->
-										</ul>
-										<hr />
-									</div>
-								</div>
-								<footer>
-									<ul id="copyright">
-										<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-									</ul>
-								</footer>
-							</div>
-						</article>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
